@@ -1,5 +1,5 @@
 ## Suppleentary tables
-### medrxiv_v1/supplementary_tables/table_s2_diag_formatted_git.csv	
+### table_s2_diag_formatted_git.csv	
 #### metric - the count of visits (row 1), the count of patients (row 2), the count of visits with diagnosis code observed, the percent of visits with diagnosis code observed 
 #### negative_training_set - non-covid-19 set used in model training
 #### positive_training_set - covid-19 set used in model training
@@ -7,14 +7,14 @@
 #### positive_eval_set - covid-19 set used in model evaluation
 #### all_visits - all visits febraury 2020 to march 2022 with demographics data available
 ###
-### medrxiv_v1/supplementary_tables/table_s3_all_features.csv
+### table_s3_all_features.csv
 #### feature - model feature being queried
 #### importance - gini importance of the feature in the model
 #### wasserstein_distance_training - distance between distrubtions where feature is observed and feature is not observed in the model training set
 #### wasserstein_distance_eval - distance between distrubtions where feature is observed and feature is not observed in the model evaluation set
 #### wasserstein_distance_all_visits - distance between distrubtions where feature is observed and feature is not observed for all visits febraury 2020 to march 2022 with demographics data available
 ###
-### medrxiv_v1/supplementary_tables/table_s4_mannwhitney_results_git_formatted.csv
+### table_s4_mannwhitney_results_git_formatted.csv
 #### category - category of phenotype
 #### phenotype - name of phenoytpe
 #### phe_code - code used to identify phenotype
