@@ -1,6 +1,3 @@
-# predict-covid-effects
-## This repository contains certain supplementary tables and code for .
-#
 ## Suppleentary tables
 ### medrxiv_v1/supplementary_tables/table_s2_diag_formatted_git.csv	
 #### metric - the count of visits (row 1), the count of patients (row 2), the count of visits with diagnosis code observed, the percent of visits with diagnosis code observed 
@@ -37,6 +34,4 @@
 #### "new_6_months (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 6 months
 #### "new_9_months (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 9 months
 #### "new_1_year (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 1 year
-#
-## Code
-### 
+
