@@ -34,4 +34,10 @@
 #### "new_6_months (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 6 months
 #### "new_9_months (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 9 months
 #### "new_1_year (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 1 year
-
+###
+### table_s5_coxph_results_git_formatted.csv 
+#### category - category of phenotype
+#### phenotype - name of phenoytpe
+#### phe_code - code used to identify phenotype
+#### "all_1_year (case_n, noncase_n, hazards ratio, 95% confidence interval (lower), 95% confidence interval (upper), pvalue)" - coxph test results, case count, noncase count, hazards ratio,  95% confidence interval (lower), 95% confidence interval (upper), pvalue for conditions irrespective of previous conditions occurring within 1 year
+#### "new_1_year (case_n, noncase_n, hazards ratio, 95% confidence interval (lower), 95% confidence interval (upper), pvalue)" - coxph test results, case count, noncase count, hazards ratio,  95% confidence interval (lower), 95% confidence interval (upper), pvalue for conditions accounting for previous conditions occurring within 1 year
