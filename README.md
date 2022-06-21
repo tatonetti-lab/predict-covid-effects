@@ -41,4 +41,15 @@
 #### new_1_year_95% confidence interval (lower) - coxph test lower 95% confidence interval for conditions accounting for previous conditions occurring within 1 year
 #### new_1_year_95% confidence interval (upper) - coxph test upper 95% confidence interal for conditions accounting for previous conditions occurring within 1 year
 #### new_1_year_pvalue - coxph test pvalue for conditions accounting for previous conditions occurring within 1 year
+###
+### table_s6_multivariate_coxph.csv 
+#### covariate - the specific covariate considered in the model
+#### X_all_hazards ratio - coxph test hazards ratio for conditions irrespective of previous conditions occurring within 1 year for conditon X
+#### X_all_95% confidence interval (lower) - coxph test lower 95% confidence interval for conditions irrespective of previous conditions occurring within 1 year for conditon X
+#### X_all_95% confidence interval (upper) - coxph test upper 95% confidence interval for conditions irrespective of previous conditions occurring within 1 year for condition X
+#### X_all_pvalue - coxph test pvalue for conditions irrespective of previous conditions occurring within 1 year for condition X
+#### X_new_hazards ratio - coxph test hazards ratio for conditions accounting for previous conditions occurring within 1 year for condition X
+#### X_new_95% confidence interval (lower) - coxph test lower 95% confidence interval for conditions accounting for previous conditions occurring within 1 year for condition X
+#### X_new_95% confidence interval (upper) - coxph test upper 95% confidence interval for conditions accounting for previous conditions occurring within 1 year for condition X
+#### X_new_pvalue - coxph test pvalue for conditions accounting for previous conditions occurring within 1 year for condtion X
 
