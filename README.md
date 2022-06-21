@@ -18,26 +18,27 @@
 #### category - category of phenotype
 #### phenotype - name of phenoytpe
 #### phe_code - code used to identify phenotype
-#### "all_7_days (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions irrespective of previous conditions occurring within 7 days
-#### "all_14_days (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions irrespective of previous conditions occurring within 14 days
-#### "all_21_days (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions irrespective of previous conditions occurring within 21 days
-#### "all_28_days (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions irrespective of previous conditions occurring within 28 days
-#### "all_3_months (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions irrespective of previous conditions occurring within 3 months
-#### "all_6_months (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions irrespective of previous conditions occurring within 6 months
-#### "all_9_months (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions irrespective of previous conditions occurring within 9 months
-#### "all_1_year (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions irrespective of previous conditions occurring within 1 year
-#### "new_7_days (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 7 days
-#### "new_14_days (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 14 days
-#### "new_21_days (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 21 days
-#### "new_28_days (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 28 days
-#### "new_3_months (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 3 months
-#### "new_6_months (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 6 months
-#### "new_9_months (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 9 months
-#### "new_1_year (mwu_stat, pvalue,c_pvalue)" - mann-whitney u test statistic, p-value, and FDR-corrected p-value for conditions accounting for previous conditions occurring within 1 year
+#### all_X_mwu_stat - mann-whitney u test statistic for conditions irrespective of previous conditions occurring within X period
+#### all_X_pvalue - mann-whitney u p-value for conditions irrespective of previous conditions occurring within X period
+#### all_X_c_pvalue - mann-whitney u FDR-corrected p-value for conditions irrespective of previous conditions occurring within X period
+#### new_X_mwu_stat - mann-whitney u test statistic for conditions accounting for previous conditions conditions occurring within X period
+#### new_X_pvalue - mann-whitney u p-value for conditions accounting for previous conditions occurring within X period
+#### new_X_c_pvalue - mann-whitney u FDR-corrected p-value for conditions accounting for previous conditions occurring within X period
 ###
 ### table_s5_coxph_results_git_formatted.csv 
 #### category - category of phenotype
 #### phenotype - name of phenoytpe
 #### phe_code - code used to identify phenotype
-#### "all_1_year (case_n, noncase_n, hazards ratio, 95% confidence interval (lower), 95% confidence interval (upper), pvalue)" - coxph test results, case count, noncase count, hazards ratio,  95% confidence interval (lower), 95% confidence interval (upper), pvalue for conditions irrespective of previous conditions occurring within 1 year
-#### "new_1_year (case_n, noncase_n, hazards ratio, 95% confidence interval (lower), 95% confidence interval (upper), pvalue)" - coxph test results, case count, noncase count, hazards ratio,  95% confidence interval (lower), 95% confidence interval (upper), pvalue for conditions accounting for previous conditions occurring within 1 year
+#### all_1_year_case_n - coxph test number of cases for conditions irrespective of previous conditions occurring within 1 year
+#### all_1_year_noncase_n - coxph test number of noncases for conditions irrespective of previous conditions occurring within 1 year
+#### all_1_year_hazards ratio - coxph test hazards ratio for conditions irrespective of previous conditions occurring within 1 year
+#### all_1_year_95% confidence interval (lower) - coxph test lower 95% confidence interval for conditions irrespective of previous conditions occurring within 1 year
+#### all_1_year_95% confidence interval (upper) - coxph test upper 95% confidence interal for conditions irrespective of previous conditions occurring within 1 year
+#### all_1_year_pvalue - coxph test pvalue for conditions irrespective of previous conditions occurring within 1 year
+#### new_1_year_case_n - coxph test number of cases for conditions accounting for previous conditions occurring within 1 year
+#### new_1_year_noncase_n - coxph test number of noncases for conditions accounting for previous conditions occurring within 1 year
+#### new_1_year_hazards ratio - coxph test hazards ratio for conditions accounting for previous conditions occurring within 1 year
+#### new_1_year_95% confidence interval (lower) - coxph test lower 95% confidence interval for conditions accounting for previous conditions occurring within 1 year
+#### new_1_year_95% confidence interval (upper) - coxph test upper 95% confidence interal for conditions accounting for previous conditions occurring within 1 year
+#### new_1_year_pvalue - coxph test pvalue for conditions accounting for previous conditions occurring within 1 year
+
