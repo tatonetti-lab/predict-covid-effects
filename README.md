@@ -3,7 +3,7 @@
 #
 ## jupyter notebooks
 ### 1_pull_data.ipynb
-#### pull and process raw data from mysql database
+#### \tpull and process raw data from mysql database
 ### 2_number_of_features_analysis.ipynb
 #### monitor performance with addition of features
 ### 3_number_of_trees_analysis.ipynb
