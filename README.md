@@ -2,10 +2,12 @@
 ## This repository contains certain supplementary tables and code for .
 #
 ## Suppleentary tables
-### supplementary_tables/table_s2.csv
-### supplementary_tables/table_s3.csv
-### supplementary_tables/table_s4.csv
-#
+### table_s2_diag_formatted_git.csv
+### table_s3_all_features.csv
+### table_s4_mannwhitney_results_git_formatted.csv
+### table_s5_coxph_results_git_formatted.csv
+### table_s6_multivariate_coxph.csv
+
 ## Code
 ### 1_pull_data.ipynb
 ### 2_number_of_features_analysis.ipynb
