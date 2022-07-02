@@ -2,7 +2,7 @@
 ## This repository contains certain supplementary tables and code for .
 #
 ## Supplementary tables
-### table_s1_datetime.csv
+### table_s1_datetime_git_formatted.csv
 ### table_s2_diag_formatted_git.csv
 ### table_s3_all_features.csv
 ### table_s4_mannwhitney_results_git_formatted.csv
