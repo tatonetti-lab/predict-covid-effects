@@ -1,4 +1,4 @@
-## Suppleentary tables 
+## Supplementary tables
 ### table_s1_datetime_git_formatted.csv
 #### visit_start_month - the count of visits (row 1), the count of patients (row 2), the count of visits that began in each month, the percent of visits that began in each month
 #### non_covid_training_set - non-covid-19 set used in model training 
