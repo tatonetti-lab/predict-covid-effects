@@ -1,4 +1,11 @@
-## Suppleentary tables
+## Suppleentary tables 
+### table_s1_datetime_git_formatted.csv
+#### visit_start_month - the count of visits (row 1), the count of patients (row 2), the count of visits that began in each month, the percent of visits that began in each month
+#### non_covid_training_set - non-covid-19 set used in model training 
+#### covid_training_set - covid-19 set used in model training
+#### non_covid_eval_set  - non-covid-19 set used in model evaluation
+#### covid_eval_set  - covid-19 set used in model evaluation
+#### all_visits - all visits febraury 2020 to march 2022 with demographics data available
 ### table_s2_diag_formatted_git.csv	
 #### metric - the count of visits (row 1), the count of patients (row 2), the count of visits with diagnosis code observed, the percent of visits with diagnosis code observed 
 #### negative_training_set - non-covid-19 set used in model training
