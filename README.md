@@ -11,4 +11,4 @@ For more information on this project:
 > Using machine learning probabilities to identify effects of COVID-19. <br>
 Vijendra Ramlall, Benjamin May, and Nicholas P. Tatonetti <br>
 _medRxiv_ (2022-07-05)  <br>
-DOI: 10.1101/2022.07.02.22277179 
+DOI: 10.1101/2022.07.02.22277179
